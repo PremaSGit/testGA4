@@ -11,9 +11,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: premakumari.sathiamurthy@straive.com
-        run: echo "Hello, world!"
-      - name: Add a commit with my email
+ - name: Add a commit with my email
         run: |
           echo "Daily commit by premakumari.sathiamurthy@straive.com" >> daily_commit.txt
           git config --local user.email "premakumari.sathiamurthy@straive.com"
@@ -21,11 +19,5 @@ jobs:
           git add daily_commit.txt
           git commit -m "Daily commit on $(date +'%Y-%m-%d')"
           git push
-      - name: premakumari.sathiamurthy@straive.com
-        run: echo "Hello"
-      - name: premakumari.sathiamurthy@straive.com
-        run: echo "Hello, world!"
-      - name: premakumari.sathiamurthy@straive.com
-        run: echo "Hi"
-      - name: premakumari.sathiamurthy@straive.com
-        run: echo "Hiii!"
+ - name: premakumari.sathiamurthy@straive.com
+       run: echo "Hiii!"

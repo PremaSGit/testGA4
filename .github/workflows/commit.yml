@@ -20,4 +20,4 @@ jobs:
           git commit -m "Daily commit on $(date +'%Y-%m-%d')"
           git push
  - name: premakumari.sathiamurthy@straive.com
-       run: echo "Hiii!"
+       run: echo "Hiii  sda"

@@ -9,15 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
- - name: Add a commit with my email
-        run: |
-          echo "Daily commit by premakumari.sathiamurthy@straive.com" >> daily_commit.txt
-          git config --local user.email "premakumari.sathiamurthy@straive.com"
-          git config --local user.name "Automated Commit"
-          git add daily_commit.txt
-          git commit -m "Daily commit on $(date +'%Y-%m-%d')"
-          git push
- - name: premakumari.sathiamurthy@straive.com
+
+     - name: premakumari.sathiamurthy@straive.com
        run: echo "Hiii  sda"

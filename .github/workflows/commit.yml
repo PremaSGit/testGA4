@@ -23,5 +23,7 @@ jobs:
           git push
       - name: premakumari.sathiamurthy@straive.com
         run: echo "Hello, world!"
-         - name: premakumari.sathiamurthy@straive.com
+      - name: premakumari.sathiamurthy@straive.com
         run: echo "Hello, world!"
+      - name: premakumari.sathiamurthy@straive.com
+        run: echo "Hi"
